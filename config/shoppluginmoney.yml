@@ -1,24 +1,17 @@
-currency:
-  unit: pro
-  max: 100000000.0
-  min: 0.0001
+package com.example.shoppluginmoney;
 
-items:
-  銅インゴット: 0.001
-  銅ブロック: 0.009
-  石炭: 0.007
-  石炭ブロック: 0.063
-  ラピスラズリ: 0.02
-  ラピスラズリブロック: 0.18
-  レッドストーン: 0.05
-  レッドストーンブロック: 0.45
-  鉄インゴット: 5.0
-  鉄ブロック: 45.0
-  金インゴット: 7.0
-  金ブロック: 63.0
-  ダイヤモンド: 15.0
-  ダイヤモンドブロック: 135.0
-  エメラルド: 30.0
-  エメラルドブロック: 270.0
-  ネザライトインゴット: 150.0
-  ネザライトブロック: 1350.0
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class ShopPluginMoney extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        getLogger().info("ShopPluginMoney が有効化されました！");
+        // コマンド登録やイベント登録など初期化処理
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("ShopPluginMoney が無効化されました。");
+    }
+}
