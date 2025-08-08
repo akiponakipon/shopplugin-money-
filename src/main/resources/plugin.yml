@@ -21,4 +21,4 @@ commands:
 permissions:
   shoppluginmoney.pay:
     description: /shoppay コマンドの権限
-    default: op
+    default: true
