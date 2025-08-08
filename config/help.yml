@@ -1,0 +1,21 @@
+pages:
+  1:
+    - "§6--- shopplugin-money- ヘルプ (ページ 1/4) ---"
+    - "§e/shoppluginhelpmoney §f- ヘルプ表示"
+    - "§e/money §f- 所持金確認"
+    - "§e/sell §f- 鉱石を売却するGUIを開く"
+    - "§e/selloff §f- 5倍価格でアイテムを購入するGUIを開く"
+  2:
+    - "§6--- shopplugin-money- ヘルプ (ページ 2/4) ---"
+    - "§e/shoppay <player> <amount> §f- 指定プレイヤーにお金を送金"
+    - "§e/その他コマンド §f- 説明"
+  3:
+    - "§6--- shopplugin-money- ヘルプ (ページ 3/4) ---"
+    - "§eGUI操作方法"
+    - "左クリック・右クリック: 1個売却/購入"
+    - "SHIFT＋クリック: 全部売却/購入"
+  4:
+    - "§6--- shopplugin-money- ヘルプ (ページ 4/4) ---"
+    - "§e今後の拡張予定"
+    - "API連携予定"
+    - "管理コマンド追加予定"
