@@ -1,0 +1,24 @@
+name: ShopPluginMoney
+main: com.example.shoppluginmoney.ShopPluginMoney
+version: 1.0.0
+api-version: 1.21
+commands:
+  money:
+    description: 所持金を確認します
+    usage: /money
+  sell:
+    description: 鉱石を売るGUIを開きます
+    usage: /sell
+  selloff:
+    description: 5倍価格でアイテムを購入するGUIを開きます
+    usage: /selloff
+  shoppay:
+    description: プレイヤーにお金を送金します
+    usage: /shoppay <player> <amount>
+  shoppluginhelpmoney:
+    description: 経済プラグインのヘルプを表示します
+    usage: /shoppluginhelpmoney [ページ番号]
+permissions:
+  shoppluginmoney.pay:
+    description: /shoppay コマンドの権限
+    default: op
