@@ -1,0 +1,56 @@
+# key: Material名 (Java enum)  value: {name: "表示名", price: 数値（pro）}
+PRISMARINE_SHARD: { name: "プリズマリン破片", price: 0.0 } # ダミー（例）
+COPPER_INGOT:
+  name: "銅インゴット"
+  price: 0.001
+COPPER_BLOCK:
+  name: "銅ブロック"
+  price: 0.009
+COAL:
+  name: "石炭"
+  price: 0.007
+COAL_BLOCK:
+  name: "石炭ブロック"
+  price: 0.063
+LAPIS_LAZULI:
+  name: "ラピスラズリ"
+  price: 0.02
+LAPIS_BLOCK:
+  name: "ラピスラズリブロック"
+  price: 0.18
+REDSTONE:
+  name: "レッドストーン"
+  price: 0.05
+REdSTONE_BLOCK:
+  name: "レッドストーンブロック"
+  price: 0.45
+IRON_INGOT:
+  name: "鉄インゴット"
+  price: 5.0
+IRON_BLOCK:
+  name: "鉄ブロック"
+  price: 45.0
+GOLD_INGOT:
+  name: "金インゴット"
+  price: 7.0
+GOLD_BLOCK:
+  name: "金ブロック"
+  price: 63.0
+DIAMOND:
+  name: "ダイヤモンド"
+  price: 15.0
+DIAMOND_BLOCK:
+  name: "ダイヤモンドブロック"
+  price: 135.0
+EMERALD:
+  name: "エメラルド"
+  price: 30.0
+EMERALD_BLOCK:
+  name: "エメラルドブロック"
+  price: 270.0
+NETHERITE_INGOT:
+  name: "ネザライトインゴット"
+  price: 150.0
+NETHERITE_BLOCK:
+  name: "ネザライトブロック"
+  price: 1350.0
