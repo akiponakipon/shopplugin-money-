@@ -1,0 +1,14 @@
+name: ShopPluginMoney
+version: 1.0
+main: com.example.shoppluginmoney.ShopPluginMoney
+api-version: 1.21
+commands:
+  sell:
+    description: アイテムを売却します
+    usage: /sell
+  selloff:
+    description: 売却モードを終了します
+    usage: /selloff
+  shopmoney:
+    description: 所持金を確認します
+    usage: /shopmoney
